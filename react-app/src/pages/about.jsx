@@ -1,10 +1,10 @@
-import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function AboutPage() {
     return (
         <div>
             <h1>About Page</h1>
-            {/* <Navigate to={'/'}>Home page</Navigate> */}
+            <Link to={'/'}>Home Page</Link>
         </div>
     )
 }

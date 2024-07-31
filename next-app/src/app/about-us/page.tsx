@@ -1,3 +1,10 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "My app | About-us",
+    description: "about us"
+}
+
 export default function AboutUsPage() {
     return (
         <div>
